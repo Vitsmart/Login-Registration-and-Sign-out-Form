@@ -90,7 +90,7 @@ if (isLoggedIn) {
                     {message && (<div className="form-group">
                         <div className="alert alert-danger" role="alert">{message}</div>
                     </div>)}
-<CheckButton ref={checkBtn} />
+<CheckButton style={{}} ref={checkBtn} />
                 </Form>
             </div>
         </div>
