@@ -137,7 +137,7 @@ validations={[required, vusername]}
                         </div>
                     </div>
                 )}
-                <CheckButton  ref={checkBtn} />
+                <CheckButton style={{}} ref={checkBtn} />
             </Form>
         </div>
     </div>
