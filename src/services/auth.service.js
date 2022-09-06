@@ -11,7 +11,7 @@ const register = (username, email, password) => {
     });
 }
 
-const login = (username, password) => {
+ const login = (username, password) => {
 return axios.post(API_URL + "signin", {
     username,
     password,
@@ -23,6 +23,7 @@ return axios.post(API_URL + "signin", {
     return response.data;
 })
 };
+console.log(response.data);
 const logout = () => {
     localStorage.removeItem("user");
 };
