@@ -18,6 +18,7 @@ userService.getPublicContent().then((response) => {
         <div className="container">
             <header className="jumbotron">
                 <h3>{content}</h3>
+                <p>Explore</p>
             </header>
         </div>
     )
